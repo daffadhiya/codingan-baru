@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">DAFFA</h1>
+      <ul class="nav-link">
+        <li class="aktif"><a href="#">Home</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#" class="ctn">Contact</a></li>
+      </ul>
+      <img
+        src="kalen-emsley-Bkci_8qcdvQ-unsplash.jpg"
+        alt=""
+        class="menu-btn"
+      />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h2>Explore The Colorrfull World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <!--event-->
+
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Event</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./images/david-gavi-Ijx8OxvKrgM-unsplash.jpg" alt="" />
+          <h4>Everest Camp Trek</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias,
+            eligendi.
+          </p>
+          <a
+            href=""
+            class="ctn"
+            style="font-family: 'poppins'; margin-top: 15px"
+            >Learn More</a
+          >
+        </div>
+        <div class="col">
+          <img
+            src="./images/jonathan-montalvo-oCqSbAuji2E-unsplash.jpg"
+            alt=""
+          />
+          <h4>Walking Holidays</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea illo
+            quo similique quibusdam dicta.
+          </p>
+          <a
+            href=""
+            class="ctn"
+            style="font-family: 'poppins'; margin-top: 15px"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--alhir event-->
+    <!--main-->
+    <section class="explore">
+      <div class="explore-content">
+        <h1>WORLD IS BEAUTIFULL</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur
+          recusandae vero iusto iste alias cupiditate!
+        </p>
+        <a
+          href="#"
+          class="ctn"
+          style="font-family: 'poppins'; text-align: center"
+          >Learn More</a
+        >
+      </div>
+    </section>
+    <!--alhir main-->
+    <!--top-->
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS & DESTIANTION</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Perspiciatis rerum nobis labore aliquam necessitatibus officia
+            eligendi libero magnam, quae quasi illum eos cum molestiae sunt.
+            Soluta consectetur quod molestiae laudantium?
+          </p>
+          <a
+            href="#"
+            class="ctn"
+            style="font-family: 'poppins'; margin-left: -100px"
+            >Learn More</a
+          >
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="images/killian-pham-Sq8rpq2KB7U-unsplash.jpg" alt="" />
+            <img
+              src="images/anggit-rizkianto-uR-gwAxhUOs-unsplash.jpg"
+              alt=""
+            />
+            <img src="images/jeremy-bishop-QUwLZNchflk-unsplash.jpg" alt="" />
+            <img
+              src="images/jonathan-montalvo-oCqSbAuji2E-unsplash.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--alhir top-->
+    <section class="footer">
+      <p>
+        123 fifth Avenue, BDG 191003, Bandung, IND | Phone: 0812345678910 |
+        Email: contact@example.com
+      </p>
+      <p class="bawah">Copyrigth @ 2022 Outdoor Adventure</p>
+    </section>
+
+    <script>
+      const menuBTN = document.querySelector(".menu-btn");
+      const navlink = document.querySelector(".nav-link");
+
+      menuBTN.addEventListener("click", () => {
+        navlink.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
